@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/primeng/resources/themes/omega/theme.css';
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ui-corner-all {
+    border-radius: 0px !important;
+}
+.ui-corner-right {
+    @extend .ui-corner-all;
+}
+.ui-menu {
+    border: none !important;
+}
+.ui-widget-content {
+    border: none !important;
+}
+.card {
+    border-radius: 0px !important;
+}
